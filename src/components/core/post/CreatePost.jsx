@@ -16,6 +16,7 @@ const NewPostModal = ({ isOpen, onClose }) => {
         if (data.media[0]) {
             formData.append("image", data.media[0]);
         }
+        onClose();
         console.log([...formData.entries()]);
         dispatch(createPost(formData, token, navigate));
         reset();
@@ -70,6 +71,7 @@ const NewPostModal = ({ isOpen, onClose }) => {
                             <button
                                 type="submit"
                                 className="px-4 py-2 text-white bg-blue-500 rounded"
+
                             >
                                 Post
                             </button>
