@@ -57,7 +57,7 @@ Follow these steps to set up and run the project on your local machine.
 git clone https://github.com/your-username/affworld-project.git
 cd affworld-project
 
----
+```
 
 ### **2. Set Up the Backend**
 Navigate to the backend directory:
@@ -65,21 +65,25 @@ Navigate to the backend directory:
 ```bash
 cd backend
 Install dependencies:
+```
 
 ```bash
 npm install
+```
+
 Create a .env file in the backend directory and add the following environment variables:
 
-env
-Copy
+```bash
 PORT=4000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
+```
 Start the backend server:
 
-bash
+```bash
 Copy
 npm run dev
+```
 The backend will run on http://localhost:4000.
 
 ### **3. Set Up the Frontend**
@@ -87,19 +91,23 @@ Navigate to the client directory:
 
 ```bash
 cd ../client
+```
 Install dependencies:
 
 ```bash
 npm install
+```
 Create a .env file in the client directory and add the following environment variable:
 
-env
-Copy
+
+```bash
 VITE_API_BASE_URL=http://localhost:4000
+```
 Start the frontend development server:
 
 ```bash
 npm run dev
+```
 The frontend will run on http://localhost:5173.
 
 ### **4. Access the Application**
