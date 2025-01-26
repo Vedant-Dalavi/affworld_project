@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
     cors({
-        origin: "http://localhost:5173",
+        origin: "https://affworld-project-q62w.vercel.app/",
         credentials: true,
     })
 )
@@ -34,21 +34,6 @@ app.use(
     })
 )
 
-
-const passport = require("passport")
-const session = require('express-session')
-
-
-app.use(session({
-    secret: `${process.env.session_key}`,
-    resave: false,
-    saveUninitialized: true,
-    cookie: { secure: false }
-}));
-
-
-app.use(passport.initialize());
-app.use(passport.session());
 
 
 
