@@ -46,6 +46,8 @@ You can access the live demo of the project here:
 - **MongoDB**: A NoSQL database for storing user and task data.
 - **JWT (JSON Web Tokens)**: For user authentication and authorization.
 
+### **Media Server**
+- "Cloudinary": Used to store the media of the post.
 ---
 
 ## **Steps to Run the Project Locally**
