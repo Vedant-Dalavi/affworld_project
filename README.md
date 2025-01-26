@@ -5,10 +5,7 @@ Welcome to the **AffWorld Project**! This is a full-stack web application design
 ## **Live Demo**
 
 You can access the live demo of the project here:
-- [Home Page](https://affworld-project-q62w.vercel.app/)
-- [Task Page](https://affworld-project-q62w.vercel.app/task)
-- [Login Page](https://affworld-project-q62w.vercel.app/login)
-- [Signup Page](https://affworld-project-q62w.vercel.app/signup)
+- https://affworld-project-q62w.vercel.app/
 
 ---
 
