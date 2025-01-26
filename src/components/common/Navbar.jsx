@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { logout } from "../../services/operations/authAPI";
+import { logout } from "../../services/operations/authApi";
 
 const Navbar = () => {
     const { token } = useSelector((state) => state.auth)
