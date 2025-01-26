@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
     cors({
-        origin: "https://affworld-project-q62w.vercel.app/",
+        origin: "https://affworld-project-q62w.vercel.app",
         credentials: true,
     })
 )
