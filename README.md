@@ -57,6 +57,7 @@ Follow these steps to set up and run the project on your local machine.
 ```bash
 git clone https://github.com/your-username/affworld-project.git
 cd affworld-project
+npm install
 
 ```
 
@@ -64,10 +65,10 @@ cd affworld-project
 Navigate to the backend directory:
 
 ```bash
-cd backend
-Install dependencies:
+cd server
 ```
 
+Install dependencies:
 ```bash
 npm install
 ```
