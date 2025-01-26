@@ -1,6 +1,6 @@
 # **AffWorld Project**
 
-Welcome to the **AffWorld Project**! This is a full-stack web application designed to manage tasks and user authentication. The project includes a React frontend and a Node.js backend, with features like user login, signup, and task management.
+Welcome to the **AffWorld Project**! This is a full-stack web application designed to Manage Tasks, Upload Post, View Post and  user authentication. The project includes a React frontend and a Node.js backend, with features like user login, signup, and task management.
 
 ## **Live Demo**
 
