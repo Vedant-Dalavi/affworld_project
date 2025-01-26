@@ -26,7 +26,7 @@ const ShowPosts = () => {
         };
 
         fetchPosts(); // Fetch posts on component mount
-    }, []); // Dependency array should be empty to avoid infinite re-renders
+    }, [allPost]); // Dependency array should be empty to avoid infinite re-renders
 
     return (
         <div>

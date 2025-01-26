@@ -16,11 +16,13 @@ const NewPostModal = ({ isOpen, onClose }) => {
         if (data.media[0]) {
             formData.append("image", data.media[0]);
         }
-        onClose();
         console.log([...formData.entries()]);
         dispatch(createPost(formData, token, navigate));
         reset();
+        onClose();
     };
+
+    // ******** **************
 
 
     return (
