@@ -83,7 +83,6 @@ JWT_SECRET=your_jwt_secret_key
 Start the backend server:
 
 ```bash
-Copy
 npm run dev
 ```
 The backend will run on http://localhost:4000.
