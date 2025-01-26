@@ -15,7 +15,11 @@ You can access the live demo of the project here:
 - **Login**: Users can log in with their credentials.
 - **Signup**: New users can create an account.
 
-### **2. Task Management**
+### **2. Post Feed**
+- **Upload**: Users can upload the post with caption and image.
+- **Feed**: User will be able to see the uploaded post.
+
+### **3. Task Management**
 - **Task Page**: Authenticated users can view and manage their tasks.
 - **Add/Edit/Delete Tasks**: Users can add new tasks, edit existing ones, or delete tasks.
 
